@@ -1,10 +1,10 @@
 import './App.css';
-import Hello from './Hello.jsx';
+import Book from './Books.jsx';
 
 function App() {
   return (
     <div>
-      <Hello />
+      <Book name="D" author="A" genre="B"/>
     </div>
   );
 }
