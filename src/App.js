@@ -1,8 +1,5 @@
 import './App.css';
-
-function Hello(){
-  return(<h1>HelloWorld</h1>);
-}
+import Hello from './Hello.jsx';
 
 function App() {
   return (
