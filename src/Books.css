@@ -1,0 +1,21 @@
+.bookCell{
+    background-color: #feffd5 ;
+    padding: 1px 20px 14px 20px;
+    margin: 20px auto 5px auto;
+    display: block;
+    width:fit-content;
+    text-align: center;
+    box-shadow: 2px 2px 5px black;
+}
+
+.bookCell p{
+    margin-bottom: -10px;
+}
+
+.bookCell sub{
+    color: gray;
+}
+
+.bookCell:hover{
+    scale: 1.05;
+}

@@ -1,8 +1,9 @@
-function Book(){
-    return(<div>
-      <h2>{this.props.name}</h2>
-      <h3>- {this.props.author}</h3> <br />
-      <p>{this.props.genre}</p>
+import './Books.css';
+
+function Book(props){
+    return(<div className='bookCell'>
+      <p><b>"{props.name}"</b> - {props.author}</p>
+      <sub>{props.genre}</sub>
     </div>);
   }
 
